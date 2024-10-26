@@ -24,7 +24,24 @@ export const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex w-full items-center justify-between lg:w-auto">
             <Logo logoClassName="block lg:hidden" />
-            <div className="lg:hidden">
+            <div className="flex items-center space-x-4 lg:hidden">
+              <Tooltip
+                text={resolvedTheme === 'dark' ? 'Light Tomato Mode' : 'Dark Tomato Mode'}
+              >
+                <button
+                  type="button"
+                  aria-label={
+                    isMounted ? `Switch to ${otherTheme} theme` : 'Toggle theme'
+                  }
+                  onClick={() => setTheme(otherTheme)}
+                >
+                  <span className="sr-only">Dark mode</span>
+                  <TomatoIcon
+                    aria-hidden="true"
+                    className="mt-1 h-4 w-4 text-primaryNeutral hover:text-gray-800 dark:text-white dark:hover:text-gray-200 dark:hover:shadow-md"
+                  />
+                </button>
+              </Tooltip>
               <button
                 onClick={() => setOpen(!open)}
                 type="button"
@@ -156,21 +173,6 @@ export const Header = () => {
                       >
                         Contact us
                       </Button>
-                      <button
-                        type="button"
-                        aria-label={
-                          isMounted ? `Switch to ${otherTheme} theme` : 'Toggle theme'
-                        }
-                        onClick={() => setTheme(otherTheme)}
-                        className="flex items-center space-x-2"
-                      >
-                        <span className="sr-only">Dark mode</span>
-                        <TomatoIcon
-                          aria-hidden="true"
-                          className="h-6 w-6 text-white hover:text-gray-200 hover:shadow-md"
-                        />
-                        <span className="text-sm text-white">Switch Theme</span>
-                      </button>
                     </div>
                   </div>
                 </div>

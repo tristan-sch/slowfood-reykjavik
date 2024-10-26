@@ -28,11 +28,7 @@ export const Features = () => {
   }
 
   return (
-    <section
-      id="features"
-      aria-labelledby="features-heading"
-      className="py-10 sm:py-0 md:py-20"
-    >
+    <section id="features" aria-labelledby="features-heading" className="py-10 md:py-20">
       <div className="rounded-lg px-12 md:px-24 lg:px-16">
         <div className="max-w-3xl">
           <SectionHeader

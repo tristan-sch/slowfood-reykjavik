@@ -5,7 +5,7 @@ import { SectionHeader } from '@/components/Text/SectionHeader'
 
 export const Guide = () => {
   return (
-    <section aria-labelledby="guide-heading" className="py-10 sm:py-0 md:py-20">
+    <section aria-labelledby="guide-heading" className="py-10 md:py-20">
       <ContainerWithBackground id="guides">
         <div className="mb-12">
           <SectionHeader

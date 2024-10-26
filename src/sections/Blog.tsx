@@ -11,7 +11,7 @@ type Props = {
 
 export const Blog = ({ posts }: Props) => {
   return (
-    <section aria-labelledby="blog-heading" className="py-10 sm:py-0 md:py-20">
+    <section aria-labelledby="blog-heading" className="py-10 sm:py-20">
       <ContainerWithBackground id="blog">
         <div className="mb-12">
           <SectionHeader

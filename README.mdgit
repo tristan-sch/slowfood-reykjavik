@@ -1,0 +1,1 @@
+# slowfood-reyjavik initgit add README.mdgit commit -m first commitgit branch -M maingit remote add origin git@github.com:tristan-sch/slowfood-reyjavik.gitgit push -u origin main

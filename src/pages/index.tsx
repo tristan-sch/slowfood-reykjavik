@@ -1,11 +1,11 @@
 import { GetStaticProps, NextPage } from 'next'
 
-import { Form } from '@/components/Form'
 import { Layout } from '@/components/Layout'
 import { getPostsNew } from '@/pages/api/api'
 import { About } from '@/sections/About'
 import { Blog } from '@/sections/Blog'
 import { Features } from '@/sections/Features'
+import { Form } from '@/sections/Form'
 import { Guide } from '@/sections/Guide'
 import { Hero } from '@/sections/Hero'
 import { PostsResponse } from '@/types/queryTypes'

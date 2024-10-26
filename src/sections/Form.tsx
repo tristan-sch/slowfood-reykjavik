@@ -4,7 +4,7 @@ import { SectionHeader } from '@/components/Text/SectionHeader'
 
 export const Form = () => {
   return (
-    <section aria-labelledby="form-heading" className="pt-10 sm:py-20">
+    <section aria-labelledby="form-heading" className="pt-10 sm:pt-0 md:py-20">
       <ContainerWithBackground id="form">
         <div
           className="mx-auto max-w-2xl px-4 lg:max-w-none lg:px-0"

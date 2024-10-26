@@ -3,7 +3,7 @@ import { NextImage } from '@/components/NextImage'
 
 export const Hero = () => {
   return (
-    <section aria-labelledby="hero-heading" className="pb-10 sm:pb-20">
+    <section aria-labelledby="hero-heading" className="pb-10 sm:pb-0 md:pb-20">
       <div className="relative lg:grid lg:grid-cols-12 lg:gap-x-8">
         <div className=" px-12 pb-0 sm:pb-32  md:px-24 lg:col-span-7 lg:px-16 lg:pb-56 lg:pt-48 xl:col-span-6">
           <div className="mx-auto max-w-2xl lg:mx-0">

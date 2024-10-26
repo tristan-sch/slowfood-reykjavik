@@ -34,7 +34,7 @@ export const Footer = () => {
             </div>
           </div>
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div className="sm:grid sm:grid-cols-2 sm:gap-8">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">
                   News
@@ -52,7 +52,7 @@ export const Footer = () => {
                   ))}
                 </ul>
               </div>
-              <div className="mt-10 md:mt-0">
+              <div className="mt-10 sm:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">
                   Presidia
                 </h3>
@@ -70,7 +70,7 @@ export const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div className="sm:grid sm:grid-cols-2 sm:gap-8">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">
                   About us
@@ -88,7 +88,7 @@ export const Footer = () => {
                   ))}
                 </ul>
               </div>
-              <div className="mt-10 md:mt-0">
+              <div className="mt-10 sm:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">
                   Guides
                 </h3>

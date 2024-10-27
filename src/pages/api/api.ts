@@ -1,6 +1,6 @@
 import { PostsResponse, SettingsDetails, SinglePostTypes } from '@/types/queryTypes'
 
-const API_URL = process.env.WORDPRESS_API_URL
+const API_URL = process.env.NEXT_PUBLIC_WORDPRESS_API_URL
 
 type ApiData = {
   generalSettings: SettingsDetails
